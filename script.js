@@ -127,8 +127,8 @@ function editTask(event) {
 
 // Salvar tarefa com as informações editadas
 document.querySelector('.btn-edit-task').addEventListener('click', () => {
-  selecTitleTask.textContent = titleNewTask.value;
-  selecDescTask.textContent = descNewTask.value;
+  titleTask.textContent = titleNewTask.value;
+  descTask.textContent = descNewTask.value;
 
   panelTaskBg.style.display = 'none';
 })
