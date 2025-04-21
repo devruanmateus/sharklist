@@ -1,0 +1,11 @@
+/* Global */
+@import './css/global/header.css';
+@import './css/global/global.css';
+@import './css/global/footer.css';
+
+/* Utilidades */
+@import './css/utilidades/color.css';
+
+/* Home */
+@import './css/home/home.css';
+@import './css/home/panel-task.css';

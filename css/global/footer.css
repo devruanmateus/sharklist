@@ -1,0 +1,20 @@
+.footer-bg {
+  background: var(--c6);
+  flex-shrink: 0;
+  width: 100%;
+  padding: 16px;
+}
+
+.footer {
+  color: var(--c1);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    font-size: 1rem;
+  }
+}

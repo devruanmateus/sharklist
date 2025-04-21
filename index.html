@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharklist</title>
+  <link rel="stylesheet" href="./style.min.css">
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./"><img src="./imgs/marca.svg" alt="Sharklist"></a>
+    </div>
+  </header>
+
+  <main class="content-bg">
+    <ul class="content container">
+      <div class="all-cols">
+        <!-- Tarefas -->
+      </div>
+      <div class="add-new-col">
+        <button onclick="addCol()" id="btn-add-col">
+          <img src="./imgs/add-box.svg" alt="">
+        </button>
+      </div>
+    </ul>
+  </main>
+
+  <section class="panel-add-task-bg">
+    <div class="panel-add-task container">
+      <div class="add-task-title">
+        <label for="new-task-title">Tarefa: </label><br>
+        <input type="text" id="new-task-title">
+      </div>
+
+      <div class="add-task-desc">
+        <label for="new-task-desc">Descrição: </label><br>
+        <input type="text" id="new-task-desc">
+      </div>
+
+      <button class="btn-save-task botao">Salvar</button>
+      <button class="btn-edit-task botao">Editar</button>
+    </div>
+  </section>
+
+  <footer class="footer-bg">
+    <div class="footer">
+      <p>Ruan. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
